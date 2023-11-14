@@ -74,235 +74,136 @@ build DataStructure.exe: CXX_EXECUTABLE_LINKER__DataStructure_Debug CMakeFiles/D
   TARGET_PDB = DataStructure.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target Order_List_static
+# Object build statements for EXECUTABLE target Stack_static
 
 
 #############################################
-# Order-only phony target for Order_List_static
+# Order-only phony target for Stack_static
 
-build cmake_object_order_depends_target_Order_List_static: phony || CMakeFiles/Order_List_static.dir
+build cmake_object_order_depends_target_Stack_static: phony || CMakeFiles/Stack_static.dir
 
-build CMakeFiles/Order_List_static.dir/chapter01/Linear_List/Order_List_static.cpp.obj: CXX_COMPILER__Order_List_static_unscanned_Debug D$:/C_Study/WorkSpace/DataStructure/chapter01/Linear_List/Order_List_static.cpp || cmake_object_order_depends_target_Order_List_static
-  DEP_FILE = CMakeFiles\Order_List_static.dir\chapter01\Linear_List\Order_List_static.cpp.obj.d
+build CMakeFiles/Stack_static.dir/chapter03/Stack/Static/Stack_static.cpp.obj: CXX_COMPILER__Stack_static_unscanned_Debug D$:/C_Study/WorkSpace/DataStructure/chapter03/Stack/Static/Stack_static.cpp || cmake_object_order_depends_target_Stack_static
+  DEP_FILE = CMakeFiles\Stack_static.dir\chapter03\Stack\Static\Stack_static.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Order_List_static.dir
-  OBJECT_FILE_DIR = CMakeFiles\Order_List_static.dir\chapter01\Linear_List
+  OBJECT_DIR = CMakeFiles\Stack_static.dir
+  OBJECT_FILE_DIR = CMakeFiles\Stack_static.dir\chapter03\Stack\Static
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Order_List_static
+# Link build statements for EXECUTABLE target Stack_static
 
 
 #############################################
-# Link the executable Order_List_static.exe
+# Link the executable Stack_static.exe
 
-build Order_List_static.exe: CXX_EXECUTABLE_LINKER__Order_List_static_Debug CMakeFiles/Order_List_static.dir/chapter01/Linear_List/Order_List_static.cpp.obj
+build Stack_static.exe: CXX_EXECUTABLE_LINKER__Stack_static_Debug CMakeFiles/Stack_static.dir/chapter03/Stack/Static/Stack_static.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Order_List_static.dir
+  OBJECT_DIR = CMakeFiles\Stack_static.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Order_List_static.exe
-  TARGET_IMPLIB = libOrder_List_static.dll.a
-  TARGET_PDB = Order_List_static.exe.dbg
+  TARGET_FILE = Stack_static.exe
+  TARGET_IMPLIB = libStack_static.dll.a
+  TARGET_PDB = Stack_static.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target Order_List_dynamic
+# Object build statements for EXECUTABLE target Stack_static_share
 
 
 #############################################
-# Order-only phony target for Order_List_dynamic
+# Order-only phony target for Stack_static_share
 
-build cmake_object_order_depends_target_Order_List_dynamic: phony || CMakeFiles/Order_List_dynamic.dir
+build cmake_object_order_depends_target_Stack_static_share: phony || CMakeFiles/Stack_static_share.dir
 
-build CMakeFiles/Order_List_dynamic.dir/chapter01/Linear_List/Order_List_dynamic.cpp.obj: CXX_COMPILER__Order_List_dynamic_unscanned_Debug D$:/C_Study/WorkSpace/DataStructure/chapter01/Linear_List/Order_List_dynamic.cpp || cmake_object_order_depends_target_Order_List_dynamic
-  DEP_FILE = CMakeFiles\Order_List_dynamic.dir\chapter01\Linear_List\Order_List_dynamic.cpp.obj.d
+build CMakeFiles/Stack_static_share.dir/chapter03/Stack/Static/Stack_static_share.cpp.obj: CXX_COMPILER__Stack_static_share_unscanned_Debug D$:/C_Study/WorkSpace/DataStructure/chapter03/Stack/Static/Stack_static_share.cpp || cmake_object_order_depends_target_Stack_static_share
+  DEP_FILE = CMakeFiles\Stack_static_share.dir\chapter03\Stack\Static\Stack_static_share.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Order_List_dynamic.dir
-  OBJECT_FILE_DIR = CMakeFiles\Order_List_dynamic.dir\chapter01\Linear_List
+  OBJECT_DIR = CMakeFiles\Stack_static_share.dir
+  OBJECT_FILE_DIR = CMakeFiles\Stack_static_share.dir\chapter03\Stack\Static
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Order_List_dynamic
+# Link build statements for EXECUTABLE target Stack_static_share
 
 
 #############################################
-# Link the executable Order_List_dynamic.exe
+# Link the executable Stack_static_share.exe
 
-build Order_List_dynamic.exe: CXX_EXECUTABLE_LINKER__Order_List_dynamic_Debug CMakeFiles/Order_List_dynamic.dir/chapter01/Linear_List/Order_List_dynamic.cpp.obj
+build Stack_static_share.exe: CXX_EXECUTABLE_LINKER__Stack_static_share_Debug CMakeFiles/Stack_static_share.dir/chapter03/Stack/Static/Stack_static_share.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Order_List_dynamic.dir
+  OBJECT_DIR = CMakeFiles\Stack_static_share.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Order_List_dynamic.exe
-  TARGET_IMPLIB = libOrder_List_dynamic.dll.a
-  TARGET_PDB = Order_List_dynamic.exe.dbg
+  TARGET_FILE = Stack_static_share.exe
+  TARGET_IMPLIB = libStack_static_share.dll.a
+  TARGET_PDB = Stack_static_share.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target test01
+# Object build statements for EXECUTABLE target Stack_dynamic
 
 
 #############################################
-# Order-only phony target for test01
+# Order-only phony target for Stack_dynamic
 
-build cmake_object_order_depends_target_test01: phony || CMakeFiles/test01.dir
+build cmake_object_order_depends_target_Stack_dynamic: phony || CMakeFiles/Stack_dynamic.dir
 
-build CMakeFiles/test01.dir/chapter01/Linear_List/test01.cpp.obj: CXX_COMPILER__test01_unscanned_Debug D$:/C_Study/WorkSpace/DataStructure/chapter01/Linear_List/test01.cpp || cmake_object_order_depends_target_test01
-  DEP_FILE = CMakeFiles\test01.dir\chapter01\Linear_List\test01.cpp.obj.d
+build CMakeFiles/Stack_dynamic.dir/chapter03/Stack/Dynamic/Stack_dynamic_withoutHead.cpp.obj: CXX_COMPILER__Stack_dynamic_unscanned_Debug D$:/C_Study/WorkSpace/DataStructure/chapter03/Stack/Dynamic/Stack_dynamic_withoutHead.cpp || cmake_object_order_depends_target_Stack_dynamic
+  DEP_FILE = CMakeFiles\Stack_dynamic.dir\chapter03\Stack\Dynamic\Stack_dynamic_withoutHead.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\test01.dir
-  OBJECT_FILE_DIR = CMakeFiles\test01.dir\chapter01\Linear_List
+  OBJECT_DIR = CMakeFiles\Stack_dynamic.dir
+  OBJECT_FILE_DIR = CMakeFiles\Stack_dynamic.dir\chapter03\Stack\Dynamic
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target test01
+# Link build statements for EXECUTABLE target Stack_dynamic
 
 
 #############################################
-# Link the executable test01.exe
+# Link the executable Stack_dynamic.exe
 
-build test01.exe: CXX_EXECUTABLE_LINKER__test01_Debug CMakeFiles/test01.dir/chapter01/Linear_List/test01.cpp.obj
+build Stack_dynamic.exe: CXX_EXECUTABLE_LINKER__Stack_dynamic_Debug CMakeFiles/Stack_dynamic.dir/chapter03/Stack/Dynamic/Stack_dynamic_withoutHead.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\test01.dir
+  OBJECT_DIR = CMakeFiles\Stack_dynamic.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = test01.exe
-  TARGET_IMPLIB = libtest01.dll.a
-  TARGET_PDB = test01.exe.dbg
+  TARGET_FILE = Stack_dynamic.exe
+  TARGET_IMPLIB = libStack_dynamic.dll.a
+  TARGET_PDB = Stack_dynamic.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target stack_static
+# Object build statements for EXECUTABLE target test
 
 
 #############################################
-# Order-only phony target for stack_static
+# Order-only phony target for test
 
-build cmake_object_order_depends_target_stack_static: phony || CMakeFiles/stack_static.dir
+build cmake_object_order_depends_target_test: phony || CMakeFiles/test.dir
 
-build CMakeFiles/stack_static.dir/chapter02/Statck/Static/stack_static_01.cpp.obj: CXX_COMPILER__stack_static_unscanned_Debug D$:/C_Study/WorkSpace/DataStructure/chapter02/Statck/Static/stack_static_01.cpp || cmake_object_order_depends_target_stack_static
-  DEP_FILE = CMakeFiles\stack_static.dir\chapter02\Statck\Static\stack_static_01.cpp.obj.d
+build CMakeFiles/test.dir/chapter03/Stack/test.cpp.obj: CXX_COMPILER__test_unscanned_Debug D$:/C_Study/WorkSpace/DataStructure/chapter03/Stack/test.cpp || cmake_object_order_depends_target_test
+  DEP_FILE = CMakeFiles\test.dir\chapter03\Stack\test.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\stack_static.dir
-  OBJECT_FILE_DIR = CMakeFiles\stack_static.dir\chapter02\Statck\Static
+  OBJECT_DIR = CMakeFiles\test.dir
+  OBJECT_FILE_DIR = CMakeFiles\test.dir\chapter03\Stack
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target stack_static
+# Link build statements for EXECUTABLE target test
 
 
 #############################################
-# Link the executable stack_static.exe
+# Link the executable test.exe
 
-build stack_static.exe: CXX_EXECUTABLE_LINKER__stack_static_Debug CMakeFiles/stack_static.dir/chapter02/Statck/Static/stack_static_01.cpp.obj
+build test.exe: CXX_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/chapter03/Stack/test.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\stack_static.dir
+  OBJECT_DIR = CMakeFiles\test.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = stack_static.exe
-  TARGET_IMPLIB = libstack_static.dll.a
-  TARGET_PDB = stack_static.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target stack_static_02
-
-
-#############################################
-# Order-only phony target for stack_static_02
-
-build cmake_object_order_depends_target_stack_static_02: phony || CMakeFiles/stack_static_02.dir
-
-build CMakeFiles/stack_static_02.dir/chapter02/Statck/Static/stack_static_02.cpp.obj: CXX_COMPILER__stack_static_02_unscanned_Debug D$:/C_Study/WorkSpace/DataStructure/chapter02/Statck/Static/stack_static_02.cpp || cmake_object_order_depends_target_stack_static_02
-  DEP_FILE = CMakeFiles\stack_static_02.dir\chapter02\Statck\Static\stack_static_02.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\stack_static_02.dir
-  OBJECT_FILE_DIR = CMakeFiles\stack_static_02.dir\chapter02\Statck\Static
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target stack_static_02
-
-
-#############################################
-# Link the executable stack_static_02.exe
-
-build stack_static_02.exe: CXX_EXECUTABLE_LINKER__stack_static_02_Debug CMakeFiles/stack_static_02.dir/chapter02/Statck/Static/stack_static_02.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\stack_static_02.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = stack_static_02.exe
-  TARGET_IMPLIB = libstack_static_02.dll.a
-  TARGET_PDB = stack_static_02.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target stack_staticShare
-
-
-#############################################
-# Order-only phony target for stack_staticShare
-
-build cmake_object_order_depends_target_stack_staticShare: phony || CMakeFiles/stack_staticShare.dir
-
-build CMakeFiles/stack_staticShare.dir/chapter02/Statck/Static/stack_staticShare.cpp.obj: CXX_COMPILER__stack_staticShare_unscanned_Debug D$:/C_Study/WorkSpace/DataStructure/chapter02/Statck/Static/stack_staticShare.cpp || cmake_object_order_depends_target_stack_staticShare
-  DEP_FILE = CMakeFiles\stack_staticShare.dir\chapter02\Statck\Static\stack_staticShare.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\stack_staticShare.dir
-  OBJECT_FILE_DIR = CMakeFiles\stack_staticShare.dir\chapter02\Statck\Static
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target stack_staticShare
-
-
-#############################################
-# Link the executable stack_staticShare.exe
-
-build stack_staticShare.exe: CXX_EXECUTABLE_LINKER__stack_staticShare_Debug CMakeFiles/stack_staticShare.dir/chapter02/Statck/Static/stack_staticShare.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\stack_staticShare.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = stack_staticShare.exe
-  TARGET_IMPLIB = libstack_staticShare.dll.a
-  TARGET_PDB = stack_staticShare.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target stack_dynamic
-
-
-#############################################
-# Order-only phony target for stack_dynamic
-
-build cmake_object_order_depends_target_stack_dynamic: phony || CMakeFiles/stack_dynamic.dir
-
-build CMakeFiles/stack_dynamic.dir/chapter02/Statck/Dynamic/stack_dynamic.cpp.obj: CXX_COMPILER__stack_dynamic_unscanned_Debug D$:/C_Study/WorkSpace/DataStructure/chapter02/Statck/Dynamic/stack_dynamic.cpp || cmake_object_order_depends_target_stack_dynamic
-  DEP_FILE = CMakeFiles\stack_dynamic.dir\chapter02\Statck\Dynamic\stack_dynamic.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\stack_dynamic.dir
-  OBJECT_FILE_DIR = CMakeFiles\stack_dynamic.dir\chapter02\Statck\Dynamic
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target stack_dynamic
-
-
-#############################################
-# Link the executable stack_dynamic.exe
-
-build stack_dynamic.exe: CXX_EXECUTABLE_LINKER__stack_dynamic_Debug CMakeFiles/stack_dynamic.dir/chapter02/Statck/Dynamic/stack_dynamic.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\stack_dynamic.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = stack_dynamic.exe
-  TARGET_IMPLIB = libstack_dynamic.dll.a
-  TARGET_PDB = stack_dynamic.exe.dbg
+  TARGET_FILE = test.exe
+  TARGET_IMPLIB = libtest.dll.a
+  TARGET_PDB = test.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Queue_static
@@ -313,11 +214,11 @@ build stack_dynamic.exe: CXX_EXECUTABLE_LINKER__stack_dynamic_Debug CMakeFiles/s
 
 build cmake_object_order_depends_target_Queue_static: phony || CMakeFiles/Queue_static.dir
 
-build CMakeFiles/Queue_static.dir/chapter02/Queue/Static/Queue_static.cpp.obj: CXX_COMPILER__Queue_static_unscanned_Debug D$:/C_Study/WorkSpace/DataStructure/chapter02/Queue/Static/Queue_static.cpp || cmake_object_order_depends_target_Queue_static
-  DEP_FILE = CMakeFiles\Queue_static.dir\chapter02\Queue\Static\Queue_static.cpp.obj.d
+build CMakeFiles/Queue_static.dir/chapter03/Queue/static/Queue_static_Sacrifice.cpp.obj: CXX_COMPILER__Queue_static_unscanned_Debug D$:/C_Study/WorkSpace/DataStructure/chapter03/Queue/static/Queue_static_Sacrifice.cpp || cmake_object_order_depends_target_Queue_static
+  DEP_FILE = CMakeFiles\Queue_static.dir\chapter03\Queue\static\Queue_static_Sacrifice.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Queue_static.dir
-  OBJECT_FILE_DIR = CMakeFiles\Queue_static.dir\chapter02\Queue\Static
+  OBJECT_FILE_DIR = CMakeFiles\Queue_static.dir\chapter03\Queue\static
 
 
 # =============================================================================
@@ -327,7 +228,7 @@ build CMakeFiles/Queue_static.dir/chapter02/Queue/Static/Queue_static.cpp.obj: C
 #############################################
 # Link the executable Queue_static.exe
 
-build Queue_static.exe: CXX_EXECUTABLE_LINKER__Queue_static_Debug CMakeFiles/Queue_static.dir/chapter02/Queue/Static/Queue_static.cpp.obj
+build Queue_static.exe: CXX_EXECUTABLE_LINKER__Queue_static_Debug CMakeFiles/Queue_static.dir/chapter03/Queue/static/Queue_static_Sacrifice.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Queue_static.dir
@@ -338,39 +239,6 @@ build Queue_static.exe: CXX_EXECUTABLE_LINKER__Queue_static_Debug CMakeFiles/Que
   TARGET_PDB = Queue_static.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target Queue_static_size
-
-
-#############################################
-# Order-only phony target for Queue_static_size
-
-build cmake_object_order_depends_target_Queue_static_size: phony || CMakeFiles/Queue_static_size.dir
-
-build CMakeFiles/Queue_static_size.dir/chapter02/Queue/Static/Queue_static_size.cpp.obj: CXX_COMPILER__Queue_static_size_unscanned_Debug D$:/C_Study/WorkSpace/DataStructure/chapter02/Queue/Static/Queue_static_size.cpp || cmake_object_order_depends_target_Queue_static_size
-  DEP_FILE = CMakeFiles\Queue_static_size.dir\chapter02\Queue\Static\Queue_static_size.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Queue_static_size.dir
-  OBJECT_FILE_DIR = CMakeFiles\Queue_static_size.dir\chapter02\Queue\Static
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target Queue_static_size
-
-
-#############################################
-# Link the executable Queue_static_size.exe
-
-build Queue_static_size.exe: CXX_EXECUTABLE_LINKER__Queue_static_size_Debug CMakeFiles/Queue_static_size.dir/chapter02/Queue/Static/Queue_static_size.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Queue_static_size.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = Queue_static_size.exe
-  TARGET_IMPLIB = libQueue_static_size.dll.a
-  TARGET_PDB = Queue_static_size.exe.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target Queue_static_tag
 
 
@@ -379,11 +247,11 @@ build Queue_static_size.exe: CXX_EXECUTABLE_LINKER__Queue_static_size_Debug CMak
 
 build cmake_object_order_depends_target_Queue_static_tag: phony || CMakeFiles/Queue_static_tag.dir
 
-build CMakeFiles/Queue_static_tag.dir/chapter02/Queue/Static/Queue_static_tag.cpp.obj: CXX_COMPILER__Queue_static_tag_unscanned_Debug D$:/C_Study/WorkSpace/DataStructure/chapter02/Queue/Static/Queue_static_tag.cpp || cmake_object_order_depends_target_Queue_static_tag
-  DEP_FILE = CMakeFiles\Queue_static_tag.dir\chapter02\Queue\Static\Queue_static_tag.cpp.obj.d
+build CMakeFiles/Queue_static_tag.dir/chapter03/Queue/static/Queue_static_tag.cpp.obj: CXX_COMPILER__Queue_static_tag_unscanned_Debug D$:/C_Study/WorkSpace/DataStructure/chapter03/Queue/static/Queue_static_tag.cpp || cmake_object_order_depends_target_Queue_static_tag
+  DEP_FILE = CMakeFiles\Queue_static_tag.dir\chapter03\Queue\static\Queue_static_tag.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Queue_static_tag.dir
-  OBJECT_FILE_DIR = CMakeFiles\Queue_static_tag.dir\chapter02\Queue\Static
+  OBJECT_FILE_DIR = CMakeFiles\Queue_static_tag.dir\chapter03\Queue\static
 
 
 # =============================================================================
@@ -393,7 +261,7 @@ build CMakeFiles/Queue_static_tag.dir/chapter02/Queue/Static/Queue_static_tag.cp
 #############################################
 # Link the executable Queue_static_tag.exe
 
-build Queue_static_tag.exe: CXX_EXECUTABLE_LINKER__Queue_static_tag_Debug CMakeFiles/Queue_static_tag.dir/chapter02/Queue/Static/Queue_static_tag.cpp.obj
+build Queue_static_tag.exe: CXX_EXECUTABLE_LINKER__Queue_static_tag_Debug CMakeFiles/Queue_static_tag.dir/chapter03/Queue/static/Queue_static_tag.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Queue_static_tag.dir
@@ -404,235 +272,268 @@ build Queue_static_tag.exe: CXX_EXECUTABLE_LINKER__Queue_static_tag_Debug CMakeF
   TARGET_PDB = Queue_static_tag.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target Queue_Dynamic_head
+# Object build statements for EXECUTABLE target Link_Single_withoutHead
 
 
 #############################################
-# Order-only phony target for Queue_Dynamic_head
+# Order-only phony target for Link_Single_withoutHead
 
-build cmake_object_order_depends_target_Queue_Dynamic_head: phony || CMakeFiles/Queue_Dynamic_head.dir
+build cmake_object_order_depends_target_Link_Single_withoutHead: phony || CMakeFiles/Link_Single_withoutHead.dir
 
-build CMakeFiles/Queue_Dynamic_head.dir/chapter02/Queue/Dynamic/Queue_Dynamic_head.cpp.obj: CXX_COMPILER__Queue_Dynamic_head_unscanned_Debug D$:/C_Study/WorkSpace/DataStructure/chapter02/Queue/Dynamic/Queue_Dynamic_head.cpp || cmake_object_order_depends_target_Queue_Dynamic_head
-  DEP_FILE = CMakeFiles\Queue_Dynamic_head.dir\chapter02\Queue\Dynamic\Queue_Dynamic_head.cpp.obj.d
+build CMakeFiles/Link_Single_withoutHead.dir/chapter02/Dynamic/Link_Single_withoutHead.cpp.obj: CXX_COMPILER__Link_Single_withoutHead_unscanned_Debug D$:/C_Study/WorkSpace/DataStructure/chapter02/Dynamic/Link_Single_withoutHead.cpp || cmake_object_order_depends_target_Link_Single_withoutHead
+  DEP_FILE = CMakeFiles\Link_Single_withoutHead.dir\chapter02\Dynamic\Link_Single_withoutHead.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Queue_Dynamic_head.dir
-  OBJECT_FILE_DIR = CMakeFiles\Queue_Dynamic_head.dir\chapter02\Queue\Dynamic
+  OBJECT_DIR = CMakeFiles\Link_Single_withoutHead.dir
+  OBJECT_FILE_DIR = CMakeFiles\Link_Single_withoutHead.dir\chapter02\Dynamic
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Queue_Dynamic_head
+# Link build statements for EXECUTABLE target Link_Single_withoutHead
 
 
 #############################################
-# Link the executable Queue_Dynamic_head.exe
+# Link the executable Link_Single_withoutHead.exe
 
-build Queue_Dynamic_head.exe: CXX_EXECUTABLE_LINKER__Queue_Dynamic_head_Debug CMakeFiles/Queue_Dynamic_head.dir/chapter02/Queue/Dynamic/Queue_Dynamic_head.cpp.obj
+build Link_Single_withoutHead.exe: CXX_EXECUTABLE_LINKER__Link_Single_withoutHead_Debug CMakeFiles/Link_Single_withoutHead.dir/chapter02/Dynamic/Link_Single_withoutHead.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Queue_Dynamic_head.dir
+  OBJECT_DIR = CMakeFiles\Link_Single_withoutHead.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Queue_Dynamic_head.exe
-  TARGET_IMPLIB = libQueue_Dynamic_head.dll.a
-  TARGET_PDB = Queue_Dynamic_head.exe.dbg
+  TARGET_FILE = Link_Single_withoutHead.exe
+  TARGET_IMPLIB = libLink_Single_withoutHead.dll.a
+  TARGET_PDB = Link_Single_withoutHead.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target Queue_Dynamic_withoutHead
+# Object build statements for EXECUTABLE target Link_Single_head
 
 
 #############################################
-# Order-only phony target for Queue_Dynamic_withoutHead
+# Order-only phony target for Link_Single_head
 
-build cmake_object_order_depends_target_Queue_Dynamic_withoutHead: phony || CMakeFiles/Queue_Dynamic_withoutHead.dir
+build cmake_object_order_depends_target_Link_Single_head: phony || CMakeFiles/Link_Single_head.dir
 
-build CMakeFiles/Queue_Dynamic_withoutHead.dir/chapter02/Queue/Dynamic/Queue_Dynamic_withoutHead.cpp.obj: CXX_COMPILER__Queue_Dynamic_withoutHead_unscanned_Debug D$:/C_Study/WorkSpace/DataStructure/chapter02/Queue/Dynamic/Queue_Dynamic_withoutHead.cpp || cmake_object_order_depends_target_Queue_Dynamic_withoutHead
-  DEP_FILE = CMakeFiles\Queue_Dynamic_withoutHead.dir\chapter02\Queue\Dynamic\Queue_Dynamic_withoutHead.cpp.obj.d
+build CMakeFiles/Link_Single_head.dir/chapter02/Dynamic/Link_Single_head.cpp.obj: CXX_COMPILER__Link_Single_head_unscanned_Debug D$:/C_Study/WorkSpace/DataStructure/chapter02/Dynamic/Link_Single_head.cpp || cmake_object_order_depends_target_Link_Single_head
+  DEP_FILE = CMakeFiles\Link_Single_head.dir\chapter02\Dynamic\Link_Single_head.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Queue_Dynamic_withoutHead.dir
-  OBJECT_FILE_DIR = CMakeFiles\Queue_Dynamic_withoutHead.dir\chapter02\Queue\Dynamic
+  OBJECT_DIR = CMakeFiles\Link_Single_head.dir
+  OBJECT_FILE_DIR = CMakeFiles\Link_Single_head.dir\chapter02\Dynamic
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Queue_Dynamic_withoutHead
+# Link build statements for EXECUTABLE target Link_Single_head
 
 
 #############################################
-# Link the executable Queue_Dynamic_withoutHead.exe
+# Link the executable Link_Single_head.exe
 
-build Queue_Dynamic_withoutHead.exe: CXX_EXECUTABLE_LINKER__Queue_Dynamic_withoutHead_Debug CMakeFiles/Queue_Dynamic_withoutHead.dir/chapter02/Queue/Dynamic/Queue_Dynamic_withoutHead.cpp.obj
+build Link_Single_head.exe: CXX_EXECUTABLE_LINKER__Link_Single_head_Debug CMakeFiles/Link_Single_head.dir/chapter02/Dynamic/Link_Single_head.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Queue_Dynamic_withoutHead.dir
+  OBJECT_DIR = CMakeFiles\Link_Single_head.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Queue_Dynamic_withoutHead.exe
-  TARGET_IMPLIB = libQueue_Dynamic_withoutHead.dll.a
-  TARGET_PDB = Queue_Dynamic_withoutHead.exe.dbg
+  TARGET_FILE = Link_Single_head.exe
+  TARGET_IMPLIB = libLink_Single_head.dll.a
+  TARGET_PDB = Link_Single_head.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target Queue_static_n-1
+# Object build statements for EXECUTABLE target Queue_dynamic_head
 
 
 #############################################
-# Order-only phony target for Queue_static_n-1
+# Order-only phony target for Queue_dynamic_head
 
-build cmake_object_order_depends_target_Queue_static_n-1: phony || CMakeFiles/Queue_static_n-1.dir
+build cmake_object_order_depends_target_Queue_dynamic_head: phony || CMakeFiles/Queue_dynamic_head.dir
 
-build CMakeFiles/Queue_static_n-1.dir/chapter02/Queue/Static/Queue_static_n-1.cpp.obj: CXX_COMPILER__Queue_static_n-1_unscanned_Debug D$:/C_Study/WorkSpace/DataStructure/chapter02/Queue/Static/Queue_static_n-1.cpp || cmake_object_order_depends_target_Queue_static_n-1
-  DEP_FILE = CMakeFiles\Queue_static_n-1.dir\chapter02\Queue\Static\Queue_static_n-1.cpp.obj.d
+build CMakeFiles/Queue_dynamic_head.dir/chapter03/Queue/dynamic/Queue_dynamic_head.cpp.obj: CXX_COMPILER__Queue_dynamic_head_unscanned_Debug D$:/C_Study/WorkSpace/DataStructure/chapter03/Queue/dynamic/Queue_dynamic_head.cpp || cmake_object_order_depends_target_Queue_dynamic_head
+  DEP_FILE = CMakeFiles\Queue_dynamic_head.dir\chapter03\Queue\dynamic\Queue_dynamic_head.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Queue_static_n-1.dir
-  OBJECT_FILE_DIR = CMakeFiles\Queue_static_n-1.dir\chapter02\Queue\Static
+  OBJECT_DIR = CMakeFiles\Queue_dynamic_head.dir
+  OBJECT_FILE_DIR = CMakeFiles\Queue_dynamic_head.dir\chapter03\Queue\dynamic
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Queue_static_n-1
+# Link build statements for EXECUTABLE target Queue_dynamic_head
 
 
 #############################################
-# Link the executable Queue_static_n-1.exe
+# Link the executable Queue_dynamic_head.exe
 
-build Queue_static_n-1.exe: CXX_EXECUTABLE_LINKER__Queue_static_n-1_Debug CMakeFiles/Queue_static_n-1.dir/chapter02/Queue/Static/Queue_static_n-1.cpp.obj
+build Queue_dynamic_head.exe: CXX_EXECUTABLE_LINKER__Queue_dynamic_head_Debug CMakeFiles/Queue_dynamic_head.dir/chapter03/Queue/dynamic/Queue_dynamic_head.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Queue_static_n-1.dir
+  OBJECT_DIR = CMakeFiles\Queue_dynamic_head.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Queue_static_n-1.exe
-  TARGET_IMPLIB = libQueue_static_n-1.dll.a
-  TARGET_PDB = Queue_static_n-1.exe.dbg
+  TARGET_FILE = Queue_dynamic_head.exe
+  TARGET_IMPLIB = libQueue_dynamic_head.dll.a
+  TARGET_PDB = Queue_dynamic_head.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target bracket_Static
+# Object build statements for EXECUTABLE target Queue_dynamic_withoutHead
 
 
 #############################################
-# Order-only phony target for bracket_Static
+# Order-only phony target for Queue_dynamic_withoutHead
 
-build cmake_object_order_depends_target_bracket_Static: phony || CMakeFiles/bracket_Static.dir
+build cmake_object_order_depends_target_Queue_dynamic_withoutHead: phony || CMakeFiles/Queue_dynamic_withoutHead.dir
 
-build CMakeFiles/bracket_Static.dir/chapter02/Statck/Bracket/bracket_Static.cpp.obj: CXX_COMPILER__bracket_Static_unscanned_Debug D$:/C_Study/WorkSpace/DataStructure/chapter02/Statck/Bracket/bracket_Static.cpp || cmake_object_order_depends_target_bracket_Static
-  DEP_FILE = CMakeFiles\bracket_Static.dir\chapter02\Statck\Bracket\bracket_Static.cpp.obj.d
+build CMakeFiles/Queue_dynamic_withoutHead.dir/chapter03/Queue/dynamic/Queue_dynamic_withoutHead.cpp.obj: CXX_COMPILER__Queue_dynamic_withoutHead_unscanned_Debug D$:/C_Study/WorkSpace/DataStructure/chapter03/Queue/dynamic/Queue_dynamic_withoutHead.cpp || cmake_object_order_depends_target_Queue_dynamic_withoutHead
+  DEP_FILE = CMakeFiles\Queue_dynamic_withoutHead.dir\chapter03\Queue\dynamic\Queue_dynamic_withoutHead.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\bracket_Static.dir
-  OBJECT_FILE_DIR = CMakeFiles\bracket_Static.dir\chapter02\Statck\Bracket
+  OBJECT_DIR = CMakeFiles\Queue_dynamic_withoutHead.dir
+  OBJECT_FILE_DIR = CMakeFiles\Queue_dynamic_withoutHead.dir\chapter03\Queue\dynamic
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target bracket_Static
+# Link build statements for EXECUTABLE target Queue_dynamic_withoutHead
 
 
 #############################################
-# Link the executable bracket_Static.exe
+# Link the executable Queue_dynamic_withoutHead.exe
 
-build bracket_Static.exe: CXX_EXECUTABLE_LINKER__bracket_Static_Debug CMakeFiles/bracket_Static.dir/chapter02/Statck/Bracket/bracket_Static.cpp.obj
+build Queue_dynamic_withoutHead.exe: CXX_EXECUTABLE_LINKER__Queue_dynamic_withoutHead_Debug CMakeFiles/Queue_dynamic_withoutHead.dir/chapter03/Queue/dynamic/Queue_dynamic_withoutHead.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\bracket_Static.dir
+  OBJECT_DIR = CMakeFiles\Queue_dynamic_withoutHead.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = bracket_Static.exe
-  TARGET_IMPLIB = libbracket_Static.dll.a
-  TARGET_PDB = bracket_Static.exe.dbg
+  TARGET_FILE = Queue_dynamic_withoutHead.exe
+  TARGET_IMPLIB = libQueue_dynamic_withoutHead.dll.a
+  TARGET_PDB = Queue_dynamic_withoutHead.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target Satck_dynamic_code
+# Object build statements for EXECUTABLE target Queue_dynamic_Double
 
 
 #############################################
-# Order-only phony target for Satck_dynamic_code
+# Order-only phony target for Queue_dynamic_Double
 
-build cmake_object_order_depends_target_Satck_dynamic_code: phony || CMakeFiles/Satck_dynamic_code.dir
+build cmake_object_order_depends_target_Queue_dynamic_Double: phony || CMakeFiles/Queue_dynamic_Double.dir
 
-build CMakeFiles/Satck_dynamic_code.dir/chapter02/pratice/Satck_dynamic_code.cpp.obj: CXX_COMPILER__Satck_dynamic_code_unscanned_Debug D$:/C_Study/WorkSpace/DataStructure/chapter02/pratice/Satck_dynamic_code.cpp || cmake_object_order_depends_target_Satck_dynamic_code
-  DEP_FILE = CMakeFiles\Satck_dynamic_code.dir\chapter02\pratice\Satck_dynamic_code.cpp.obj.d
+build CMakeFiles/Queue_dynamic_Double.dir/chapter03/Queue/dynamic/Queue_dynamic_Double.cpp.obj: CXX_COMPILER__Queue_dynamic_Double_unscanned_Debug D$:/C_Study/WorkSpace/DataStructure/chapter03/Queue/dynamic/Queue_dynamic_Double.cpp || cmake_object_order_depends_target_Queue_dynamic_Double
+  DEP_FILE = CMakeFiles\Queue_dynamic_Double.dir\chapter03\Queue\dynamic\Queue_dynamic_Double.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Satck_dynamic_code.dir
-  OBJECT_FILE_DIR = CMakeFiles\Satck_dynamic_code.dir\chapter02\pratice
+  OBJECT_DIR = CMakeFiles\Queue_dynamic_Double.dir
+  OBJECT_FILE_DIR = CMakeFiles\Queue_dynamic_Double.dir\chapter03\Queue\dynamic
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Satck_dynamic_code
+# Link build statements for EXECUTABLE target Queue_dynamic_Double
 
 
 #############################################
-# Link the executable Satck_dynamic_code.exe
+# Link the executable Queue_dynamic_Double.exe
 
-build Satck_dynamic_code.exe: CXX_EXECUTABLE_LINKER__Satck_dynamic_code_Debug CMakeFiles/Satck_dynamic_code.dir/chapter02/pratice/Satck_dynamic_code.cpp.obj
+build Queue_dynamic_Double.exe: CXX_EXECUTABLE_LINKER__Queue_dynamic_Double_Debug CMakeFiles/Queue_dynamic_Double.dir/chapter03/Queue/dynamic/Queue_dynamic_Double.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Satck_dynamic_code.dir
+  OBJECT_DIR = CMakeFiles\Queue_dynamic_Double.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Satck_dynamic_code.exe
-  TARGET_IMPLIB = libSatck_dynamic_code.dll.a
-  TARGET_PDB = Satck_dynamic_code.exe.dbg
+  TARGET_FILE = Queue_dynamic_Double.exe
+  TARGET_IMPLIB = libQueue_dynamic_Double.dll.a
+  TARGET_PDB = Queue_dynamic_Double.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target Stack_stack_pratice
+# Object build statements for EXECUTABLE target Queue_train
 
 
 #############################################
-# Order-only phony target for Stack_stack_pratice
+# Order-only phony target for Queue_train
 
-build cmake_object_order_depends_target_Stack_stack_pratice: phony || CMakeFiles/Stack_stack_pratice.dir
+build cmake_object_order_depends_target_Queue_train: phony || CMakeFiles/Queue_train.dir
 
-build CMakeFiles/Stack_stack_pratice.dir/chapter02/pratice/Stack_stack_pratice.cpp.obj: CXX_COMPILER__Stack_stack_pratice_unscanned_Debug D$:/C_Study/WorkSpace/DataStructure/chapter02/pratice/Stack_stack_pratice.cpp || cmake_object_order_depends_target_Stack_stack_pratice
-  DEP_FILE = CMakeFiles\Stack_stack_pratice.dir\chapter02\pratice\Stack_stack_pratice.cpp.obj.d
+build CMakeFiles/Queue_train.dir/chapter03/Queue/experiment/Queue_train.cpp.obj: CXX_COMPILER__Queue_train_unscanned_Debug D$:/C_Study/WorkSpace/DataStructure/chapter03/Queue/experiment/Queue_train.cpp || cmake_object_order_depends_target_Queue_train
+  DEP_FILE = CMakeFiles\Queue_train.dir\chapter03\Queue\experiment\Queue_train.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Stack_stack_pratice.dir
-  OBJECT_FILE_DIR = CMakeFiles\Stack_stack_pratice.dir\chapter02\pratice
+  OBJECT_DIR = CMakeFiles\Queue_train.dir
+  OBJECT_FILE_DIR = CMakeFiles\Queue_train.dir\chapter03\Queue\experiment
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Stack_stack_pratice
+# Link build statements for EXECUTABLE target Queue_train
 
 
 #############################################
-# Link the executable Stack_stack_pratice.exe
+# Link the executable Queue_train.exe
 
-build Stack_stack_pratice.exe: CXX_EXECUTABLE_LINKER__Stack_stack_pratice_Debug CMakeFiles/Stack_stack_pratice.dir/chapter02/pratice/Stack_stack_pratice.cpp.obj
+build Queue_train.exe: CXX_EXECUTABLE_LINKER__Queue_train_Debug CMakeFiles/Queue_train.dir/chapter03/Queue/experiment/Queue_train.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Stack_stack_pratice.dir
+  OBJECT_DIR = CMakeFiles\Queue_train.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Stack_stack_pratice.exe
-  TARGET_IMPLIB = libStack_stack_pratice.dll.a
-  TARGET_PDB = Stack_stack_pratice.exe.dbg
+  TARGET_FILE = Queue_train.exe
+  TARGET_IMPLIB = libQueue_train.dll.a
+  TARGET_PDB = Queue_train.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target Stack_codeConvert
+# Object build statements for EXECUTABLE target circleQueue_static
 
 
 #############################################
-# Order-only phony target for Stack_codeConvert
+# Order-only phony target for circleQueue_static
 
-build cmake_object_order_depends_target_Stack_codeConvert: phony || CMakeFiles/Stack_codeConvert.dir
+build cmake_object_order_depends_target_circleQueue_static: phony || CMakeFiles/circleQueue_static.dir
 
-build CMakeFiles/Stack_codeConvert.dir/chapter02/pratice/Stack_codeConvert.cpp.obj: CXX_COMPILER__Stack_codeConvert_unscanned_Debug D$:/C_Study/WorkSpace/DataStructure/chapter02/pratice/Stack_codeConvert.cpp || cmake_object_order_depends_target_Stack_codeConvert
-  DEP_FILE = CMakeFiles\Stack_codeConvert.dir\chapter02\pratice\Stack_codeConvert.cpp.obj.d
+build CMakeFiles/circleQueue_static.dir/chapter03/Queue/experiment/circleQueue_static.cpp.obj: CXX_COMPILER__circleQueue_static_unscanned_Debug D$:/C_Study/WorkSpace/DataStructure/chapter03/Queue/experiment/circleQueue_static.cpp || cmake_object_order_depends_target_circleQueue_static
+  DEP_FILE = CMakeFiles\circleQueue_static.dir\chapter03\Queue\experiment\circleQueue_static.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Stack_codeConvert.dir
-  OBJECT_FILE_DIR = CMakeFiles\Stack_codeConvert.dir\chapter02\pratice
+  OBJECT_DIR = CMakeFiles\circleQueue_static.dir
+  OBJECT_FILE_DIR = CMakeFiles\circleQueue_static.dir\chapter03\Queue\experiment
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Stack_codeConvert
+# Link build statements for EXECUTABLE target circleQueue_static
 
 
 #############################################
-# Link the executable Stack_codeConvert.exe
+# Link the executable circleQueue_static.exe
 
-build Stack_codeConvert.exe: CXX_EXECUTABLE_LINKER__Stack_codeConvert_Debug CMakeFiles/Stack_codeConvert.dir/chapter02/pratice/Stack_codeConvert.cpp.obj
+build circleQueue_static.exe: CXX_EXECUTABLE_LINKER__circleQueue_static_Debug CMakeFiles/circleQueue_static.dir/chapter03/Queue/experiment/circleQueue_static.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Stack_codeConvert.dir
+  OBJECT_DIR = CMakeFiles\circleQueue_static.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Stack_codeConvert.exe
-  TARGET_IMPLIB = libStack_codeConvert.dll.a
-  TARGET_PDB = Stack_codeConvert.exe.dbg
+  TARGET_FILE = circleQueue_static.exe
+  TARGET_IMPLIB = libcircleQueue_static.dll.a
+  TARGET_PDB = circleQueue_static.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Queue_static_communcate
+
+
+#############################################
+# Order-only phony target for Queue_static_communcate
+
+build cmake_object_order_depends_target_Queue_static_communcate: phony || CMakeFiles/Queue_static_communcate.dir
+
+build CMakeFiles/Queue_static_communcate.dir/chapter03/Queue/experiment/Queue_static_communcate.cpp.obj: CXX_COMPILER__Queue_static_communcate_unscanned_Debug D$:/C_Study/WorkSpace/DataStructure/chapter03/Queue/experiment/Queue_static_communcate.cpp || cmake_object_order_depends_target_Queue_static_communcate
+  DEP_FILE = CMakeFiles\Queue_static_communcate.dir\chapter03\Queue\experiment\Queue_static_communcate.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Queue_static_communcate.dir
+  OBJECT_FILE_DIR = CMakeFiles\Queue_static_communcate.dir\chapter03\Queue\experiment
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Queue_static_communcate
+
+
+#############################################
+# Link the executable Queue_static_communcate.exe
+
+build Queue_static_communcate.exe: CXX_EXECUTABLE_LINKER__Queue_static_communcate_Debug CMakeFiles/Queue_static_communcate.dir/chapter03/Queue/experiment/Queue_static_communcate.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Queue_static_communcate.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Queue_static_communcate.exe
+  TARGET_IMPLIB = libQueue_static_communcate.dll.a
+  TARGET_PDB = Queue_static_communcate.exe.dbg
 
 
 #############################################
@@ -662,39 +563,33 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build DataStructure: phony DataStructure.exe
 
-build Order_List_dynamic: phony Order_List_dynamic.exe
+build Link_Single_head: phony Link_Single_head.exe
 
-build Order_List_static: phony Order_List_static.exe
+build Link_Single_withoutHead: phony Link_Single_withoutHead.exe
 
-build Queue_Dynamic_head: phony Queue_Dynamic_head.exe
+build Queue_dynamic_Double: phony Queue_dynamic_Double.exe
 
-build Queue_Dynamic_withoutHead: phony Queue_Dynamic_withoutHead.exe
+build Queue_dynamic_head: phony Queue_dynamic_head.exe
+
+build Queue_dynamic_withoutHead: phony Queue_dynamic_withoutHead.exe
 
 build Queue_static: phony Queue_static.exe
 
-build Queue_static_n-1: phony Queue_static_n-1.exe
-
-build Queue_static_size: phony Queue_static_size.exe
+build Queue_static_communcate: phony Queue_static_communcate.exe
 
 build Queue_static_tag: phony Queue_static_tag.exe
 
-build Satck_dynamic_code: phony Satck_dynamic_code.exe
+build Queue_train: phony Queue_train.exe
 
-build Stack_codeConvert: phony Stack_codeConvert.exe
+build Stack_dynamic: phony Stack_dynamic.exe
 
-build Stack_stack_pratice: phony Stack_stack_pratice.exe
+build Stack_static: phony Stack_static.exe
 
-build bracket_Static: phony bracket_Static.exe
+build Stack_static_share: phony Stack_static_share.exe
 
-build stack_dynamic: phony stack_dynamic.exe
+build circleQueue_static: phony circleQueue_static.exe
 
-build stack_static: phony stack_static.exe
-
-build stack_staticShare: phony stack_staticShare.exe
-
-build stack_static_02: phony stack_static_02.exe
-
-build test01: phony test01.exe
+build test: phony test.exe
 
 # =============================================================================
 # Folder targets.
@@ -704,7 +599,7 @@ build test01: phony test01.exe
 #############################################
 # Folder: D:/C_Study/WorkSpace/DataStructure/cmake-build-debug
 
-build all: phony DataStructure.exe Order_List_static.exe Order_List_dynamic.exe test01.exe stack_static.exe stack_static_02.exe stack_staticShare.exe stack_dynamic.exe Queue_static.exe Queue_static_size.exe Queue_static_tag.exe Queue_Dynamic_head.exe Queue_Dynamic_withoutHead.exe Queue_static_n-1.exe bracket_Static.exe Satck_dynamic_code.exe Stack_stack_pratice.exe Stack_codeConvert.exe
+build all: phony DataStructure.exe Stack_static.exe Stack_static_share.exe Stack_dynamic.exe test.exe Queue_static.exe Queue_static_tag.exe Link_Single_withoutHead.exe Link_Single_head.exe Queue_dynamic_head.exe Queue_dynamic_withoutHead.exe Queue_dynamic_Double.exe Queue_train.exe circleQueue_static.exe Queue_static_communcate.exe
 
 # =============================================================================
 # Built-in targets

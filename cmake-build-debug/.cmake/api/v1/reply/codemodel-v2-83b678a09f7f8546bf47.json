@@ -1,0 +1,186 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "DataStructure",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "DataStructure::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DataStructure-Debug-2e07762a9d264c4d8cd6.json",
+					"name" : "DataStructure",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Link_Single_head::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Link_Single_head-Debug-dbaec4174835e1df4fff.json",
+					"name" : "Link_Single_head",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Link_Single_withoutHead::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Link_Single_withoutHead-Debug-f01cd50a73f15468eb3a.json",
+					"name" : "Link_Single_withoutHead",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Queue_dynamic_Double::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Queue_dynamic_Double-Debug-7e60d7088bb4f6d857b8.json",
+					"name" : "Queue_dynamic_Double",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Queue_dynamic_head::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Queue_dynamic_head-Debug-bb93ea9694e5b9fb42ea.json",
+					"name" : "Queue_dynamic_head",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Queue_dynamic_withoutHead::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Queue_dynamic_withoutHead-Debug-6c0535b3513dfd19a44e.json",
+					"name" : "Queue_dynamic_withoutHead",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Queue_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Queue_static-Debug-a99638bb3f7e93264092.json",
+					"name" : "Queue_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Queue_static_communcate::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Queue_static_communcate-Debug-a0b09f85ea42e3949e32.json",
+					"name" : "Queue_static_communcate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Queue_static_tag::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Queue_static_tag-Debug-fa135cc8fe65b958dd70.json",
+					"name" : "Queue_static_tag",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Queue_train::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Queue_train-Debug-e34033364740c3c64d54.json",
+					"name" : "Queue_train",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Stack_dynamic::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Stack_dynamic-Debug-d11ee97dc239268afe76.json",
+					"name" : "Stack_dynamic",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Stack_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Stack_static-Debug-e3e751b56d2fb3e5056f.json",
+					"name" : "Stack_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Stack_static_share::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Stack_static_share-Debug-ebc59dc387446d51df1a.json",
+					"name" : "Stack_static_share",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "circleQueue_static::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-circleQueue_static-Debug-a322ce26400218bea834.json",
+					"name" : "circleQueue_static",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test-Debug-c76e69e738870c030340.json",
+					"name" : "test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/C_Study/WorkSpace/DataStructure/cmake-build-debug",
+		"source" : "D:/C_Study/WorkSpace/DataStructure"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

@@ -33,7 +33,7 @@ rule CXX_EXECUTABLE_LINKER__DataStructure_Debug
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__Order_List_static_unscanned_Debug
+rule CXX_COMPILER__Stack_static_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = "D:\C_Study\Clion_IDE\CLion 2023.2.2\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -43,7 +43,7 @@ rule CXX_COMPILER__Order_List_static_unscanned_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__Order_List_static_Debug
+rule CXX_EXECUTABLE_LINKER__Stack_static_Debug
   command = cmd.exe /C "$PRE_LINK && "D:\C_Study\Clion_IDE\CLion 2023.2.2\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -52,7 +52,7 @@ rule CXX_EXECUTABLE_LINKER__Order_List_static_Debug
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__Order_List_dynamic_unscanned_Debug
+rule CXX_COMPILER__Stack_static_share_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = "D:\C_Study\Clion_IDE\CLion 2023.2.2\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -62,7 +62,7 @@ rule CXX_COMPILER__Order_List_dynamic_unscanned_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__Order_List_dynamic_Debug
+rule CXX_EXECUTABLE_LINKER__Stack_static_share_Debug
   command = cmd.exe /C "$PRE_LINK && "D:\C_Study\Clion_IDE\CLion 2023.2.2\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -71,7 +71,7 @@ rule CXX_EXECUTABLE_LINKER__Order_List_dynamic_Debug
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__test01_unscanned_Debug
+rule CXX_COMPILER__Stack_dynamic_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = "D:\C_Study\Clion_IDE\CLion 2023.2.2\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -81,7 +81,7 @@ rule CXX_COMPILER__test01_unscanned_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__test01_Debug
+rule CXX_EXECUTABLE_LINKER__Stack_dynamic_Debug
   command = cmd.exe /C "$PRE_LINK && "D:\C_Study\Clion_IDE\CLion 2023.2.2\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -90,7 +90,7 @@ rule CXX_EXECUTABLE_LINKER__test01_Debug
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__stack_static_unscanned_Debug
+rule CXX_COMPILER__test_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = "D:\C_Study\Clion_IDE\CLion 2023.2.2\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -100,64 +100,7 @@ rule CXX_COMPILER__stack_static_unscanned_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__stack_static_Debug
-  command = cmd.exe /C "$PRE_LINK && "D:\C_Study\Clion_IDE\CLion 2023.2.2\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
-  description = Linking CXX executable $TARGET_FILE
-  restat = $RESTAT
-
-
-#############################################
-# Rule for compiling CXX files.
-
-rule CXX_COMPILER__stack_static_02_unscanned_Debug
-  depfile = $DEP_FILE
-  deps = gcc
-  command = "D:\C_Study\Clion_IDE\CLion 2023.2.2\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
-  description = Building CXX object $out
-
-
-#############################################
-# Rule for linking CXX executable.
-
-rule CXX_EXECUTABLE_LINKER__stack_static_02_Debug
-  command = cmd.exe /C "$PRE_LINK && "D:\C_Study\Clion_IDE\CLion 2023.2.2\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
-  description = Linking CXX executable $TARGET_FILE
-  restat = $RESTAT
-
-
-#############################################
-# Rule for compiling CXX files.
-
-rule CXX_COMPILER__stack_staticShare_unscanned_Debug
-  depfile = $DEP_FILE
-  deps = gcc
-  command = "D:\C_Study\Clion_IDE\CLion 2023.2.2\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
-  description = Building CXX object $out
-
-
-#############################################
-# Rule for linking CXX executable.
-
-rule CXX_EXECUTABLE_LINKER__stack_staticShare_Debug
-  command = cmd.exe /C "$PRE_LINK && "D:\C_Study\Clion_IDE\CLion 2023.2.2\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
-  description = Linking CXX executable $TARGET_FILE
-  restat = $RESTAT
-
-
-#############################################
-# Rule for compiling CXX files.
-
-rule CXX_COMPILER__stack_dynamic_unscanned_Debug
-  depfile = $DEP_FILE
-  deps = gcc
-  command = "D:\C_Study\Clion_IDE\CLion 2023.2.2\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
-  description = Building CXX object $out
-
-
-#############################################
-# Rule for linking CXX executable.
-
-rule CXX_EXECUTABLE_LINKER__stack_dynamic_Debug
+rule CXX_EXECUTABLE_LINKER__test_Debug
   command = cmd.exe /C "$PRE_LINK && "D:\C_Study\Clion_IDE\CLion 2023.2.2\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -185,25 +128,6 @@ rule CXX_EXECUTABLE_LINKER__Queue_static_Debug
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__Queue_static_size_unscanned_Debug
-  depfile = $DEP_FILE
-  deps = gcc
-  command = "D:\C_Study\Clion_IDE\CLion 2023.2.2\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
-  description = Building CXX object $out
-
-
-#############################################
-# Rule for linking CXX executable.
-
-rule CXX_EXECUTABLE_LINKER__Queue_static_size_Debug
-  command = cmd.exe /C "$PRE_LINK && "D:\C_Study\Clion_IDE\CLion 2023.2.2\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
-  description = Linking CXX executable $TARGET_FILE
-  restat = $RESTAT
-
-
-#############################################
-# Rule for compiling CXX files.
-
 rule CXX_COMPILER__Queue_static_tag_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
@@ -223,7 +147,7 @@ rule CXX_EXECUTABLE_LINKER__Queue_static_tag_Debug
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__Queue_Dynamic_head_unscanned_Debug
+rule CXX_COMPILER__Link_Single_withoutHead_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = "D:\C_Study\Clion_IDE\CLion 2023.2.2\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -233,7 +157,7 @@ rule CXX_COMPILER__Queue_Dynamic_head_unscanned_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__Queue_Dynamic_head_Debug
+rule CXX_EXECUTABLE_LINKER__Link_Single_withoutHead_Debug
   command = cmd.exe /C "$PRE_LINK && "D:\C_Study\Clion_IDE\CLion 2023.2.2\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -242,7 +166,7 @@ rule CXX_EXECUTABLE_LINKER__Queue_Dynamic_head_Debug
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__Queue_Dynamic_withoutHead_unscanned_Debug
+rule CXX_COMPILER__Link_Single_head_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = "D:\C_Study\Clion_IDE\CLion 2023.2.2\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -252,7 +176,7 @@ rule CXX_COMPILER__Queue_Dynamic_withoutHead_unscanned_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__Queue_Dynamic_withoutHead_Debug
+rule CXX_EXECUTABLE_LINKER__Link_Single_head_Debug
   command = cmd.exe /C "$PRE_LINK && "D:\C_Study\Clion_IDE\CLion 2023.2.2\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -261,7 +185,7 @@ rule CXX_EXECUTABLE_LINKER__Queue_Dynamic_withoutHead_Debug
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__Queue_static_n-1_unscanned_Debug
+rule CXX_COMPILER__Queue_dynamic_head_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = "D:\C_Study\Clion_IDE\CLion 2023.2.2\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -271,7 +195,7 @@ rule CXX_COMPILER__Queue_static_n-1_unscanned_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__Queue_static_n-1_Debug
+rule CXX_EXECUTABLE_LINKER__Queue_dynamic_head_Debug
   command = cmd.exe /C "$PRE_LINK && "D:\C_Study\Clion_IDE\CLion 2023.2.2\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -280,7 +204,7 @@ rule CXX_EXECUTABLE_LINKER__Queue_static_n-1_Debug
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__bracket_Static_unscanned_Debug
+rule CXX_COMPILER__Queue_dynamic_withoutHead_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = "D:\C_Study\Clion_IDE\CLion 2023.2.2\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -290,7 +214,7 @@ rule CXX_COMPILER__bracket_Static_unscanned_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__bracket_Static_Debug
+rule CXX_EXECUTABLE_LINKER__Queue_dynamic_withoutHead_Debug
   command = cmd.exe /C "$PRE_LINK && "D:\C_Study\Clion_IDE\CLion 2023.2.2\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -299,7 +223,7 @@ rule CXX_EXECUTABLE_LINKER__bracket_Static_Debug
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__Satck_dynamic_code_unscanned_Debug
+rule CXX_COMPILER__Queue_dynamic_Double_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = "D:\C_Study\Clion_IDE\CLion 2023.2.2\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -309,7 +233,7 @@ rule CXX_COMPILER__Satck_dynamic_code_unscanned_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__Satck_dynamic_code_Debug
+rule CXX_EXECUTABLE_LINKER__Queue_dynamic_Double_Debug
   command = cmd.exe /C "$PRE_LINK && "D:\C_Study\Clion_IDE\CLion 2023.2.2\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -318,7 +242,7 @@ rule CXX_EXECUTABLE_LINKER__Satck_dynamic_code_Debug
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__Stack_stack_pratice_unscanned_Debug
+rule CXX_COMPILER__Queue_train_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = "D:\C_Study\Clion_IDE\CLion 2023.2.2\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -328,7 +252,7 @@ rule CXX_COMPILER__Stack_stack_pratice_unscanned_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__Stack_stack_pratice_Debug
+rule CXX_EXECUTABLE_LINKER__Queue_train_Debug
   command = cmd.exe /C "$PRE_LINK && "D:\C_Study\Clion_IDE\CLion 2023.2.2\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -337,7 +261,7 @@ rule CXX_EXECUTABLE_LINKER__Stack_stack_pratice_Debug
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__Stack_codeConvert_unscanned_Debug
+rule CXX_COMPILER__circleQueue_static_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = "D:\C_Study\Clion_IDE\CLion 2023.2.2\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -347,7 +271,26 @@ rule CXX_COMPILER__Stack_codeConvert_unscanned_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__Stack_codeConvert_Debug
+rule CXX_EXECUTABLE_LINKER__circleQueue_static_Debug
+  command = cmd.exe /C "$PRE_LINK && "D:\C_Study\Clion_IDE\CLion 2023.2.2\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking CXX executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__Queue_static_communcate_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = "D:\C_Study\Clion_IDE\CLion 2023.2.2\bin\mingw\bin\g++.exe" $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX executable.
+
+rule CXX_EXECUTABLE_LINKER__Queue_static_communcate_Debug
   command = cmd.exe /C "$PRE_LINK && "D:\C_Study\Clion_IDE\CLion 2023.2.2\bin\mingw\bin\g++.exe" $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
